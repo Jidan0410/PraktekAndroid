@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        />
+
+    <TextView
+        android:id="@+id/namaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textSize="23sp"
+        android:textColor="@color/purple_500"
+        android:textStyle="bold"
+        android:layout_marginBottom="14dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        />
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eamil"
+        android:textSize="23sp"
+        android:textColor="@color/purple_500"
+        android:textStyle="bold"
+        android:layout_marginBottom="14dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Handphone"
+        />
+
+    <TextView
+        android:id="@+id/nohpTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Handphone"
+        android:textSize="23sp"
+        android:textColor="@color/purple_500"
+        android:textStyle="bold"
+        android:layout_marginBottom="14dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Lahir"
+        />
+
+    <TextView
+        android:id="@+id/tgllahirTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Lahir"
+        android:textSize="23sp"
+        android:textColor="@color/purple_500"
+        android:textStyle="bold"
+        android:layout_marginBottom="14dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Mata Kuliah"
+        />
+
+    <TextView
+        android:id="@+id/jmlhmkTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Mata Kuliah"
+        android:textSize="23sp"
+        android:textColor="@color/purple_500"
+        android:textStyle="bold"
+        android:layout_marginBottom="14dp"
+        />
+
+</LinearLayout>
